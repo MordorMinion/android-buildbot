@@ -1,0 +1,16 @@
+name: <android-buildbot>
+services:
+    rom-builder:
+        stdin_open: true
+        tty: true
+        volumes:
+            - ~/android/src:/src
+            - ~/android/ccache:/ccache
+            - ~/android/out:/out
+            - ~/android/logs:/logs
+        deploy:
+            resources:
+                limits:
+                    cpus: 16
+                    memory: 48g
+        image: rom-builder:latest
