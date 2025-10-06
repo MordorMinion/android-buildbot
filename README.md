@@ -16,3 +16,4 @@ Resources and Tools to investigate:
 - https://github.com/lineageos4microg/docker-lineage-cicd
   - Check out the scripts in here
 - https://github.com/blackshibe/ # crDroid 11.6 (LineageOS 22.2) builds for pdx234
+- https://gitgud.io/FirmXtract/
